@@ -1,0 +1,12 @@
+int [] num = {8,3,15,6};
+int smallest = num[0];
+
+
+for (int i = 1; i < num.lenght; i++){
+   if(num [i]  < smallest){
+       smallest = num[i];
+}
+
+}
+
+System.out.println(smallest);
